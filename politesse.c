@@ -14,7 +14,7 @@ void politesse_rec(int niveau, int pos){
         printf("merci de ton ");
         politesse_rec(niveau-1, 0);
     } else {
-        printf("de rien de ton ");
+        printf("de rien de mon ");
         politesse_rec(niveau-1, 1);
     }
 }
